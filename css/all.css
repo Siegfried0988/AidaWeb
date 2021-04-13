@@ -11016,10 +11016,6 @@ section#contact form#contactForm :-ms-input-placeholder {
   overflow: hidden;
 }
 
-.imgeOpacity {
-  opacity: 0.8;
-}
-
 .titleImg {
   width: 40px;
   position: relative;
@@ -11029,4 +11025,10 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 .titleWord {
   display: inline;
+}
+
+@media (max-width: 550px) {
+  .adjustPicture {
+    padding-top: 50px;
+  }
 }

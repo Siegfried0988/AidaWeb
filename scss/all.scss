@@ -10508,9 +10508,9 @@ section#contact form#contactForm :-ms-input-placeholder {
   }
 
 
-.imgeOpacity {
-opacity: 0.8;
-}
+// .imgeOpacity {
+// opacity: 0.8;
+// }
 
 .titleImg {
     width: 40px;
@@ -10523,3 +10523,8 @@ opacity: 0.8;
     display: inline;
 }
 
+@media (max-width: 550px) {
+  .adjustPicture {
+    padding-top: 50px;
+  }
+}
