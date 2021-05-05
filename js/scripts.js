@@ -1,75 +1,17 @@
-/*!
-    * Start Bootstrap - Agency v6.0.3 (https://startbootstrap.com/theme/agency)
-    * Copyright 2013-2020 Start Bootstrap
-    * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-agency/blob/master/LICENSE)
-    */
-(function ($) {
-    "use strict"; // Start of use strict
-
-    // Smooth scrolling using jQuery easing
-    $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
-        if (
-            location.pathname.replace(/^\//, "") ==
-            this.pathname.replace(/^\//, "") &&
-            location.hostname == this.hostname
-        ) {
-            var target = $(this.hash);
-            target = target.length
-                ? target
-                : $("[name=" + this.hash.slice(1) + "]");
-            if (target.length) {
-                $("html, body").animate(
-                    {
-                        scrollTop: target.offset().top - 72,
-                    },
-                    1000,
-                    "easeInOutExpo"
-                );
-                return false;
-            }
-        }
-    });
-
-    // Closes responsive menu when a scroll trigger link is clicked
-    $(".js-scroll-trigger").click(function () {
-        $(".navbar-collapse").collapse("hide");
-    });
-
-    // Activate scrollspy to add active class to navbar items on scroll
-    $("body").scrollspy({
-        target: "#mainNav",
-        offset: 74,
-    });
-
-    // Collapse Navbar
-  
-    var navbarCollapse = function () {
-        var windowWidth = $(window).width();
-        if ($("#mainNav").offset().top > 100) {
-            $("#mainNav").addClass("navbar-shrink");
-            // console.log('加入底色啦')
-            
-            if (windowWidth > 922) {
-                // console.log('高度太高 文字變成白色');
-                // console.log(windowWidth);
-                $("#mainNav").removeClass("navbar-changeShrink");
-                $("#mainNav .navbar-brand h3").removeClass("navbar-changeBrand");
-                $("#mainNav .navbar-nav .nav-item .nav-link").removeClass("navbar-changColor");
-            }
-        } else {
-            $("#mainNav").removeClass("navbar-shrink");
-            // console.log('移除底色啦')
-            if (windowWidth > 922) {
-                // console.log('高度夠低 文字變成黑色');
-                // console.log(windowWidth);
-                $("#mainNav").addClass("navbar-changeShrink");
-                $("#mainNav .navbar-brand h3").addClass("navbar-changeBrand");
-                $("#mainNav .navbar-nav .nav-item .nav-link").addClass("navbar-changColor");
-            }
-        }
-    };
-    // Collapse now if page is not at top
-    navbarCollapse();
-    // Collapse the navbar when page is scrolled
-    $(window).scroll(navbarCollapse);
-})(jQuery); // End of use strict
+document.writeln("    <!-- bootstrap-table所需的script -->");
+// document.writeln("    <link rel=\'stylesheet\' href=\'https://use.fontawesome.com/releases/v5.6.3/css/all.css\' crossorigin=\'anonymous\'>");
+document.writeln("    <link rel=\'stylesheet\' href=\'https://unpkg.com/bootstrap-table@1.15.5/dist/bootstrap-table.min.css\'>");
+document.writeln("    <script src=\'https://code.jquery.com/jquery-3.3.1.min.js\' crossorigin=\'anonymous\'></script>");
+document.writeln("    <script src=\'https://unpkg.com/bootstrap-table@1.18.2/dist/bootstrap-table.min.js\'></script>");
+document.writeln("    <!-- 動態文字所需的script animejs -->");
+document.writeln("    <script src=\'https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js\'></script>");
+document.writeln("    <!-- Bootstrap core JS-->");
+document.writeln("    <script src=\'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js\'></script>");
+document.writeln("    <script src=\'https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js\'></script>");
+document.writeln("    <!-- Third party plugin JS-->");
+document.writeln("    <script src=\'https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js\'></script>");
+document.writeln("    <!-- Contact form JS-->");
+document.writeln("    <script src=\'assets/mail/jqBootstrapValidation.js\'></script>");
+document.writeln("    <script src=\'assets/mail/contact_me.js\'></script>");
+document.writeln("    <!-- Core theme JS-->");
+document.writeln("    <script src=\'js/all.js\'></script>");

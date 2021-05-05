@@ -25,7 +25,7 @@ document.writeln("                            <a class=\'dropdown-item js-scroll
 document.writeln("                            <a class=\'dropdown-item js-scroll-trigger\' href=\'#about\'>歷屆義工學員</a>");
 document.writeln("                        </div>");
 document.writeln("                    </li>");
-document.writeln("                    <li class=\'nav-item\'><a class=\'nav-link js-scroll-trigger\' href=\'#services\'>教學內容</a></li>");
+document.writeln("                    <li class=\'nav-item\'><a class=\'nav-link js-scroll-trigger\' href=\'./teaching.html\'>教學內容</a></li>");
 document.writeln("                    <li class=\'nav-item\'><a class=\'nav-link js-scroll-trigger\' href=\'./activityRecord.html\'>活動紀錄</a></li>");
 document.writeln("                    <li class=\'nav-item\'><a class=\'nav-link js-scroll-trigger\' href=\'./experience.html\'>心得感想</a></li>");
 document.writeln("                    <li class=\'nav-item\'><a class=\'nav-link js-scroll-trigger\' href=\'./news.html\'>新聞報導</a></li>");
