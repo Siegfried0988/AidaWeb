@@ -1784,11 +1784,11 @@ pre code {
 }
 
 .table-bordered {
-  border: 1px solid #dee2e6;
+  border: 2px solid #c1c5c9;
 }
 .table-bordered th,
 .table-bordered td {
-  border: 1px solid #dee2e6;
+  border: 2px solid #c1c5c9;
 }
 .table-bordered thead th,
 .table-bordered thead td {
@@ -8118,6 +8118,11 @@ button.bg-dark:focus {
   padding-left: 3rem !important;
 }
 
+
+.pt-7{
+  padding-top: 7rem !important;
+}
+
 .m-n1 {
   margin: -0.25rem !important;
 }
@@ -10958,3 +10963,21 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 
 #more {display: none;}
+
+
+
+.chartContainer{
+  // text-align: left;
+  width: 400px !important;
+  height: 400px !important;
+  // display: inline ;
+  // margin: 0 auto;
+}
+
+// canvas{
+//   width: 400px !important;
+//   height: 400px !important;
+//   margin: 0 auto;
+// }
+
+

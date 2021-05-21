@@ -2,51 +2,129 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>艾妲資訊成果網</title>
-    <link rel="icon" type="image/x-icon" href="assets/img/yzu.png" />
-    <!-- Font Awesome icons (free version)-->
-    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
-    <!-- Google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet"
-        type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/all.css" rel="stylesheet" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>艾妲資訊成果網</title>
+  <link rel="icon" type="image/x-icon" href="assets/img/yzu.png" />
+  <!-- Font Awesome icons (free version)-->
+  <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+  <!-- Google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet"
+    type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+  <!-- Core theme CSS (includes Bootstrap)-->
+  <link href="css/all.css" rel="stylesheet" />
 </head>
 
 <body id="page-top">
-    <script type="text/javascript" src="./js/navBar.js"></script>
-    
+  <script type="text/javascript" src="./js/navBar.js"></script>
+
+  <div class="text-center">
     <div class="mt-5 pt-5"></div>
     <h1 class="ml11">
-        <span class="text-wrapper">
-          <span class="line line1">|</span>
-          <span class="letters">Hello Goodbye</span>
-        </span>
-      </h1>
-      
+      <span class="text-wrapper">
+        <span class="line line1">|</span>
+        <span class="letters">Teaching content</span>
+      </span>
+    </h1>
+  </div>
 
 
-      <div style="width: 400px; height: 400px;">
-      <canvas id="myChart" width="100" height="50">
-      </canvas>
+  <!-- <div style="display: inline;"> -->
+
+  <!-- <div class='chartContainer' >
+    <h3 style="display:inline;">ccc</h3>
+    <div style="display:inline;">元素一</div>
+    <div style="display:inline;">元素二</div>
+    <canvas id="myChart1" ></canvas>dddd</div>
+ -->
+
+  <!-- <div class='chartContainer'>
+    <canvas id="myChart2"></canvas>
+  </div> -->
+
+
+
+
+
+  <!-- <div style="display: flex; flex-wrap: wrap;">
+  <div class='chartContainer' >
+    <canvas id="myChart2" ></canvas></div>
+    <div >元素二</div>
+  
+</div> -->
+
+
+  <div class="container">
+
+
+
+    <div class="row">
+      <div class="col-lg-5">
+        <div class='chartContainer'>
+          <canvas id="myChart2"></canvas>
+        </div>
       </div>
+      <div class="col-lg-7 pt-7">
+        <h3>107至110學年度各系參與人數統計圖</h3>
+        <p>
+          參與艾妲的科系以資訊工程學系為主，甚至將近50%，因此值得檢討的是學生過於集中於特定科系，往後應多將此計畫向各個不同的科系推廣。
+          這樣不只能使計畫有更多元的老師，更能促進大學生對資訊的興趣。
+        </p>
+      </div>
+    </div>
 
-      <div class="table"></div>
+
+
+    <div class="row">
+      <div class="col-lg-5">
+        <div class='chartContainer'>
+          <canvas id="myChart1"></canvas>
+        </div>
+      </div>
+      <div class="col-lg-7 pt-7">
+        <h3>110學年度各系參與人數統計圖</h3>
+        <p>
+          110學年裡參與度最高的科系依舊是電機工程學系及資訊工程學系，但相較於歷年統計比例，電機工程學系參與的人數有明顯的上升。
+          雖然分布結構依然與歷年比例相似，但從微小的改變就可以看出有更多的科系開始嘗試加入資訊的行列。
+        </p>
+      </div>
+    </div>
 
 
 
+    <h3 class="pt-7">艾妲計畫第二期夥伴學校之資訊課程現況</h3>
+    <div class="table-responsive-md">
+      <table class="table table-hover table-bordered ">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">學校</th>
+            <th scope="col">年級</th>
+            <th scope="col">資訊課程規劃</th>
+            <!-- <th scope="col">Username</th> -->
+          </tr>
+        </thead>
+        <tbody class="newTbody">
+
+        </tbody>
+      </table>
+    </div>
 
 
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.2.0/chart.min.js"></script>
-    <script src="js/scripts.js"></script>
-    <script src="js/pieChart.js"></script>
+    <!-- <div id="table"></div> -->
+
+  </div>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.2.0/chart.min.js"></script>
+  <script src="js/scripts.js"></script>
+  <script src="js/pieChart.js"></script>
+  <script src="js/table.js"></script>
 </body>
 
 </html>

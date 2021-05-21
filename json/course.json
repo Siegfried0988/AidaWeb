@@ -1,0 +1,212 @@
+[
+    {
+        "schoolName": "華勛國小",
+        "fourGrades": [
+            {
+                "grades": "三年級",
+                "courseContent": "電腦基本操作、中英文輸入法、小畫家"
+            },
+            {
+                "grades": "四年級",
+                "courseContent": "PrintMagic影像處理軟件、PhotoCap影像處理軟件"
+            },
+            {
+                "grades": "五年級",
+                "courseContent": "Scratch程式設計"
+            },
+            {
+                "grades": "六年級",
+                "courseContent": "Excel、Google協作、雲端備份、表單製作、網頁製作、多媒體"
+            }
+        ]
+    },
+    {
+        "schoolName": "自立國小",
+        "fourGrades": [
+            {
+                "grades": "三年級",
+                "courseContent": "電腦基本操作、Internet、Writer"
+            },
+            {
+                "grades": "四年級",
+                "courseContent": "Impress、PhotoCap影像處理軟件、Google應用"
+            },
+            {
+                "grades": "五年級",
+                "courseContent": "Scratch程式設計"
+            },
+            {
+                "grades": "六年級",
+                "courseContent": "mbot機器人、microbit程式設計"
+            }
+        ]
+    },
+    {
+        "schoolName": "大成國小",
+        "fourGrades": [
+            {
+                "grades": "三年級",
+                "courseContent": "電腦基本操作、小畫家、打字達人、非常好色、Word、明日星球"
+            },
+            {
+                "grades": "四年級",
+                "courseContent": "PowerPoint、Inkscape、明日星球-明日寫作、明日書店"
+            },
+            {
+                "grades": "五年級",
+                "courseContent": "Photocap影像處理軟件、威力導演、PowerPoint、明日星球、明日書店"
+            },
+            {
+                "grades": "六年級",
+                "courseContent": "blockly-games、Scratch程式設計、Tinkercad、Inkscape"
+            }
+        ]
+    },
+    {
+        "schoolName": "大湖國小",
+        "fourGrades": [
+            {
+                "grades": "三年級",
+                "courseContent": "電腦基本操作、中英文輸入法、小畫家、Media Player、Word"
+            },
+            {
+                "grades": "四年級",
+                "courseContent": "瀏覽器、E-mail、影音平台、雲端硬碟、PowerPoint"
+            },
+            {
+                "grades": "五年級",
+                "courseContent": "PrintMagic影像處理軟件、Excel"
+            },
+            {
+                "grades": "六年級",
+                "courseContent": "Scratch程式設計"
+            }
+        ]
+    },
+    {
+        "schoolName": "大埔國小",
+        "fourGrades": [
+            {
+                "grades": "三年級",
+                "courseContent": "電腦基本操作、中英文輸入法、心智圖、PaGamO學習平台"
+            },
+            {
+                "grades": "四年級",
+                "courseContent": "電子郵件、簡報、Code.org學習平台"
+            },
+            {
+                "grades": "五年級",
+                "courseContent": "Scratch程式設計"
+            },
+            {
+                "grades": "六年級",
+                "courseContent": "Excel、影像處理、PBL、畢業光碟製作"
+            }
+        ]
+    },
+    {
+        "schoolName": "高原國小",
+        "fourGrades": [
+            {
+                "grades": "三年級",
+                "courseContent": "電腦基本操作、中英輸入、小畫家、LibreOffice Draw畫圖"
+            },
+            {
+                "grades": "四年級",
+                "courseContent": "網路初探、電子郵件、Scratch程式設計、PowerPoint、雲端硬碟"
+            },
+            {
+                "grades": "五年級",
+                "courseContent": "Scratch程式設計、網路資料蒐尋應用、線上文件、Excel"
+            },
+            {
+                "grades": "六年級",
+                "courseContent": "Scratch程式設計、Kodu 3D遊戲設計、PhotoImpact、Movie Maker"
+            }
+        ]
+    },
+    {
+        "schoolName": "陳康國小",
+        "fourGrades": [
+            {
+                "grades": "三年級",
+                "courseContent": "電腦基本操作、中英文輸入法、小畫家、Word"
+            },
+            {
+                "grades": "四年級",
+                "courseContent": "Google信箱與物聯網、PowerPoint、Scratch程式設計"
+            },
+            {
+                "grades": "五年級",
+                "courseContent": "Excel、Scratch程式設計、WER Robot能力風暴機器人"
+            },
+            {
+                "grades": "六年級",
+                "courseContent": "WER Robot能力風暴機器人、影片拍攝與編輯、Open Shop Video Editor"
+            }
+        ]
+    },
+    {
+        "schoolName": "草漯國小",
+        "fourGrades": [
+            {
+                "grades": "三年級",
+                "courseContent": "電腦基本操作、中英文輸入法、小畫家"
+            },
+            {
+                "grades": "四年級",
+                "courseContent": "Internet與E-mail、Word、PrintMagic影像處理軟件"
+            },
+            {
+                "grades": "五年級",
+                "courseContent": "PhotoCap、PowerPoint、Scratch程式設計"
+            },
+            {
+                "grades": "六年級",
+                "courseContent": "影片與音樂剪輯、雲端備份與網路分享、Webduino物聯網"
+            }
+        ]
+    },
+    {
+        "schoolName": "大潭國小",
+        "fourGrades": [
+            {
+                "grades": "三年級",
+                "courseContent": "電腦基本操作、Word"
+            },
+            {
+                "grades": "四年級",
+                "courseContent": "網路基本認識、Word、小畫家"
+            },
+            {
+                "grades": "五年級",
+                "courseContent": "班級影片拍攝、剪輯"
+            },
+            {
+                "grades": "六年級",
+                "courseContent": "班級影片拍攝、剪輯"
+            }
+        ]
+    },
+    {
+        "schoolName": "東明國小",
+        "fourGrades": [
+            {
+                "grades": "三年級",
+                "courseContent": "電腦基本操作、中英文輸入法"
+            },
+            {
+                "grades": "四年級",
+                "courseContent": "PrintMagic影像處理軟件、小畫家"
+            },
+            {
+                "grades": "五年級",
+                "courseContent": "PrintMagic影像處理軟件、PhotoCap影像處理軟件"
+            },
+            {
+                "grades": "六年級",
+                "courseContent": "Word、PowerPoint、畢業紀念冊製作"
+            }
+        ]
+    }
+]
