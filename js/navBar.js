@@ -21,7 +21,7 @@ document.writeln("                            計畫介紹");
 document.writeln("                        </a>");
 document.writeln("                        <div class=\'dropdown-menu \' aria-labelledby=\'navbarDropdownMenuLink\'>");
 document.writeln("                            <a class=\'dropdown-item js-scroll-trigger\' href=\'./index.html#origin\'>艾妲緣起</a>");
-document.writeln("                            <a class=\'dropdown-item js-scroll-trigger\' href=\'#groupMember\'>組織成員</a>");
+document.writeln("                            <a class=\'dropdown-item js-scroll-trigger\' href=\'/index.html#groupMember\'>組織成員</a>");
 // document.writeln("                            <a class=\'dropdown-item js-scroll-trigger\' href=\'#about\'>歷屆義工學員</a>");
 document.writeln("                        </div>");
 document.writeln("                    </li>");
