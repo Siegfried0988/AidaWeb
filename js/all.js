@@ -77,7 +77,7 @@
 
 
 
-// Wrap every letter in a span
+//將標題加上動畫
 var textWrapper = document.querySelector('.ml11 .letters');
 textWrapper.innerHTML = textWrapper.textContent.replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>");
 

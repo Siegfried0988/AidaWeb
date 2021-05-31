@@ -8,14 +8,6 @@
   <meta name="author" content="" />
   <title>艾妲資訊成果網</title>
   <link rel="icon" type="image/x-icon" href="assets/img/yzu.png" />
-  <!-- Font Awesome icons (free version)-->
-  <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
-  <!-- Google fonts-->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-  <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet"
-    type="text/css" />
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
-  <!-- Core theme CSS (includes Bootstrap)-->
   <link href="css/all.css" rel="stylesheet" />
 </head>
 
@@ -33,29 +25,6 @@
   </div>
 
 
-  <!-- <div style="display: inline;"> -->
-
-  <!-- <div class='chartContainer' >
-    <h3 style="display:inline;">ccc</h3>
-    <div style="display:inline;">元素一</div>
-    <div style="display:inline;">元素二</div>
-    <canvas id="myChart1" ></canvas>dddd</div>
- -->
-
-  <!-- <div class='chartContainer'>
-    <canvas id="myChart2"></canvas>
-  </div> -->
-
-
-
-
-
-  <!-- <div style="display: flex; flex-wrap: wrap;">
-  <div class='chartContainer' >
-    <canvas id="myChart2" ></canvas></div>
-    <div >元素二</div>
-  
-</div> -->
 
 
   <div class="container">
@@ -104,9 +73,10 @@
             <th scope="col">學校</th>
             <th scope="col">年級</th>
             <th scope="col">資訊課程規劃</th>
-            <!-- <th scope="col">Username</th> -->
+    
           </tr>
         </thead>
+        <!-- table.js會抓住newTbody當作產生表格的起始點 -->
         <tbody class="newTbody">
 
         </tbody>
@@ -115,12 +85,11 @@
 
 
 
-    <!-- <div id="table"></div> -->
 
   </div>
 
 
-
+  <!-- 使用chart.js必須有這個<script> -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.2.0/chart.min.js"></script>
   <script src="js/scripts.js"></script>
   <script src="js/pieChart.js"></script>

@@ -28,13 +28,14 @@ $(document).ready(function () {
           // $('.newTbody').append("<tr><th scope='row' rowspan='4'>" + msg[index].schoolName +"</th><td>"+msg[index].fourGrades[index].grades+"</td><td>"+msg[index].fourGrades[index].courseContent+"</td></tr>");
 
 
+          //用迴圈json讀取資料並繪製成表格
           $('.newTbody').append("<tr><th scope='row' rowspan='5'>" + msg[index1].schoolName +"</th></tr>")
           for (let index2 = 0; index2 < 4; index2++) {
           $('.newTbody').append("<tr><td>"+msg[index1].fourGrades[index2].grades+"</td><td>"+msg[index1].fourGrades[index2].courseContent+"</td></tr>");
           }
 
         }
-        console.log(msg[0])
+        // console.log(msg[0])
   
         // $("#myInput").on("keyup", function() {
         //   var value = $(this).val().toLowerCase();

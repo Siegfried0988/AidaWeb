@@ -24,32 +24,29 @@ function use(url, getId) {
             //            DataArray.push([this.department, this.id, this.name]);
             //        }
             //    });
+
+            //result就是json被讀進來後取的名子
+            //這個迴圈就是要把json檔裡所有的department存進DataArray裡
             for (var i = 0; i < result.length; i++) {
-
-                //    console.log(result[i].department)
-                // DataArray.push(result[i].department, result[i].id, result[i].name);
                 DataArray.push(result[i].department);
-                //    console.log(DataArray)
-                // console.log(DataArray)
-
-
             }
-            console.log(DataArray);
-            console.log(DataArray.length);
+            // console.log(DataArray);
+            // console.log(DataArray.length);
 
-            //  var arr1= [12, 5, 8, 130, 44,5,51,5];
-            function count(arr, num) {
-                var i = 0;
+            
+            //count這個function是計算陣列裡name的數量
+            function count(arr, name) {
+                var num = 0;
                 arr.find(function (ele) {
-                    ele === num ? i++ : '';
+                    ele === name ? num++ : '';
                 })
-                // console.log(i)
-                return i
+                return num
             }
 
-            //   count(DataArray,"資訊工程學系")
+            
+            //將data存成單純帶有數字的list，這樣才能放進Chart()來繪製圓餅圖
             data = [count(DataArray, "資訊工程學系"), count(DataArray, "資訊管理學系"), count(DataArray, "電機工程學系"), count(DataArray, "工業工程與管理學系"), count(DataArray, "機械工程學系"), count(DataArray, "藝術與設計學系"), count(DataArray, "財務金融學系"), count(DataArray, "管院英專")]
-            console.log(data)
+            
 
             var myChart = new Chart(ctx, {
                 type: 'doughnut',
@@ -58,10 +55,10 @@ function use(url, getId) {
                     labels: ["資訊工程學系", "資訊管理學系", "電機工程學系", "工業工程與管理學系", "機械工程學系", "藝術與設計學系", "財務金融學系", "管院英專"],
                     datasets: [
                         {
-                            // data: [12, 19, 3, 5, 2, 3],
+                            
                             data: data,
 
-                            //    data: DataArray,
+                            
                             backgroundColor: [
                                 "#fed22b",
                                 "#feba29",
@@ -132,8 +129,7 @@ function use(url, getId) {
 
 
 
-// road="./json/110MembersList.json"
+
 use("./json/110MembersList.json", "myChart1");
 
 use("./json/allMembersList.json", "myChart2");
-    // use("./json/110MembersList.json");

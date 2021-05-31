@@ -10954,30 +10954,22 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 
-// font-size: 2.5rem;
-// margin-top: 0;
-// margin-bottom: 1rem;
-
-// text-transform: uppercase !important;
-
 
 
 #more {display: none;}
 
 
-
+//想要使圓餅圖置中只能使用margin: 0 auto 用其他方法皆無法使其置中
+//想要使圓餅圖與文字並排必須使用display: flex 無法使用display: inline
 .chartContainer{
-  // text-align: left;
+  
   width: 400px !important;
   height: 400px !important;
   // display: inline ;
   // margin: 0 auto;
 }
 
-// canvas{
-//   width: 400px !important;
-//   height: 400px !important;
-//   margin: 0 auto;
-// }
+
+// 要將sass轉換成css可以使用preros
 
 
